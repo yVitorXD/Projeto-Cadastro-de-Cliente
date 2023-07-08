@@ -17,6 +17,4 @@ public interface IClienteDAO {
 	
 	public Collection<Cliente> buscarTodos();
 
-	boolean verificarCadastroExistente(Cliente cliente);
-	
 }
